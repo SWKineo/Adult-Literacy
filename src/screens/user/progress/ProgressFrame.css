@@ -1,0 +1,66 @@
+body {
+    cursor: url(../cursor.svg) 0 0, auto;
+}
+
+.Progress {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: block;
+}
+
+.Progress-words {
+    margin: auto;
+    width: 80%;
+    height: 60%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.word-tile {
+    margin: 3.5vh;
+    width: 12vw;
+    height: 12vh;
+    border-radius: 3%;
+    border-style: none;
+    font-size: 2.5vw;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    color: #5f5f5f;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: url(../cursor-select.svg) 0 0, auto;
+}
+
+.word-tile.letter-I {
+    font-family: 'Arvo', serif;
+}
+
+.word-tile.attempted {
+    background-color: #fdf91e;
+    color: #6d6c20;
+}
+
+.word-tile.passed {
+    background-color: #65c445;
+    color: white;
+}
+
+.Progress-buttons {
+    width: 100%;
+    position: absolute;
+    bottom: 5vh;
+}
+
+.button-logout {
+    margin-left: 5vw;
+    float: left;
+}
+
+.button-audio {
+    margin-right: 5vw;
+    float: right;
+}

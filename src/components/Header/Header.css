@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+}
+
+.headerTitle {
+  margin: auto;
+  font-size: 22px;
+}
+
+.headerButton {
+  font-size: 22px;
+  background: none;
+  border: none;
+  color: #1199EE;
+}
+
+.headerButton:hover {
+  color: black;
+  cursor: pointer;
+}

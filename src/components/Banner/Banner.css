@@ -1,0 +1,29 @@
+.banner {
+  background-color: #1199EE;
+  display: flex;
+}
+
+.rightItem {
+  margin-left: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+}
+
+.leftItem {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+
+.bannerButton {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 18px;
+}
+
+.bannerButton:hover {
+  color: black;
+  cursor: pointer;
+}

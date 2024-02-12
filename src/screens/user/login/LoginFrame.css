@@ -1,0 +1,36 @@
+body {
+    cursor: url(../cursor.svg) 0 0, auto;
+}
+
+.Login {
+    margin-top: 10vh;
+    margin-bottom: 20vh;
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Logo {
+    align-self: center;
+    height: 30vh;
+    width: 30vh;
+    cursor: url(../cursor.svg) 0 0, auto;
+}
+
+.Logo-text {
+    font-size: 6vh;
+    color: rgb(75, 74, 74);
+}
+
+.LoginBar-holder {
+    margin-top: 5vh;
+}
+
+.emailButton {
+  position:fixed;
+  right: 10px;
+  bottom: 10px;
+}

@@ -1,0 +1,63 @@
+body {
+    cursor: url(../cursor.svg) 0 0, auto;
+}
+
+.Quiz {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Quiz-background {
+    position: absolute;
+    z-index: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.Quiz-options {
+    margin-top: 30vh;
+    width: 70vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Quiz-bottom {
+    width: 90vw;
+    margin-top: auto;
+    margin-bottom: 5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Quiz-status {
+    display: flex;
+    justify-content: space-between;
+    width: 30vw;
+    transform: scale(0.5);
+}
+
+.card-quiz {
+    z-index: 1;
+    width: 25%;
+    height: 100%;
+    border: none;
+    border-radius: 3%;
+    background-color: white;
+    font-size: 3.5vw;
+    font-family: 'Quicksand', sans-serif;
+    color: #686868;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: url(../cursor-select.svg) 0 0, auto;
+}
+
+.card-quiz.letter-I {
+    font-family: 'Arvo', serif;
+}
